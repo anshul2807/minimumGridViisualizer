@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding:0;
+    display: grid;
+    place-items: center;
+    height: 100%;
+      
+  }
+  
+  .main{
+    width:410px;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .blocks{
+    width:100px;
+    height:100px;
+    background-color:red;
+    border:1px solid black; 
+      
+     text-align:center; 
+    color:white;
+  }
+  
+  .blocks:hover{
+   opacity:0.7; 
+  }
+  
+  .control{
+    padding:10px 0px 0px 0px;
+  }
+  
+  .btn-start{
+    border:none;
+    padding:20px 25px 20px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    background:gray;
+  }
+  
+  .btn-reset{
+     border:none;
+    padding:20px 25px 20px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    background:gray;
+  }
+  
+  
+  button:active{
+    opacity:0.7;
+  }
